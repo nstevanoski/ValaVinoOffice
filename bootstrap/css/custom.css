@@ -1,0 +1,1388 @@
+/*==============================================
+    GENERAL  STYLES
+=============================================*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#wrapper {
+    width: 100%;
+    background: #23527c;
+}
+
+#page-wrapper {
+    min-height: 600px;
+    background: #F3F3F3;
+}
+
+#page-inner {
+    width: 100%;
+    background-color: #fff!important;
+    padding: 10px 25px 25px 25px;
+    min-height: 1200px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.no-boder {
+    border: 1px solid #f3f3f3;
+}
+
+h2 {
+    color: #f00;
+}
+
+h4 {
+    padding-top: 10px;
+}
+
+.square-btn-adjust {
+    border: 0px solid transparent;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 25px;
+    padding-top: 20px;
+}
+
+
+/*==============================================
+   DASHBOARD STYLES
+    =============================================*/
+
+.panel-back {
+    background-color: #F8F8F8;
+}
+
+.noti-box {
+    min-height: 100px;
+    padding: 20px;
+}
+
+.noti-box .icon-box {
+    display: block;
+    float: left;
+    margin: 0 15px 10px 0;
+    width: 70px;
+    height: 70px;
+    line-height: 75px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 40px;
+}
+
+.text-box p {
+    margin: 0 0 3px;
+}
+
+.main-text {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.set-icon {
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
+
+.bg-color-green {
+    background-color: #00CE6F;
+    color: #fff;
+}
+
+.bg-color-blue {
+    background-color: #A95DF0;
+    color: #fff;
+}
+
+.bg-color-red {
+    background-color: #DB0630;
+    color: #fff;
+}
+
+.bg-color-brown {
+    background-color: #B94A00;
+    color: #fff;
+}
+
+.icon-box-right {
+    display: block;
+    float: right;
+    margin: 0 15px 10px 0;
+    width: 70px;
+    height: 70px;
+    line-height: 75px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 40px;
+}
+
+.main-temp-back {
+    background: #8702A8;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.main-temp-back .text-temp {
+    font-size: 40px;
+}
+
+.back-dash {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    background-color: #2EA7EB;
+    color: #fff;
+}
+
+.back-dash p {
+    padding-top: 16px;
+    font-size: 13px;
+    color: #fff;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.back-footer-green {
+    background-color: #009B50;
+    border-top: 0px solid #fff;
+}
+
+.back-footer-red {
+    background-color: #AF0000;
+    border-top: 0px solid #fff;
+}
+
+.color-bottom-txt {
+    color: #000;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+
+/*CHAT PANEL*/
+
+.chat-panel .panel-body {
+    height: 450px;
+    overflow-y: scroll;
+}
+
+.chat-box {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.chat-box li {
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #808080;
+}
+
+.chat-box li.left .chat-body {
+    margin-left: 90px;
+}
+
+.chat-box li .chat-body p {
+    margin: 0;
+    color: #8d8888;
+}
+
+.chat-img>img {
+    margin-left: 20px;
+}
+
+
+/*==============================================
+    MENU STYLES
+    =============================================*/
+
+.user-image {
+    margin: 25px auto;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    max-height: 170px;
+    max-width: 170px;
+}
+
+.navbar-cls-top {
+    color: #fff;
+    text-align: center;
+    height: 120px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.navbar-cls-top .navbar-brand {
+    color: #fff;
+    background: #C90000;
+    width: 260px;
+    text-align: center;
+    height: 100px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.active-menu {
+    background-color: #838585!important;
+}
+
+.arrow {
+    float: right;
+}
+
+.fa.arrow:before {
+    content: "\f104";
+}
+
+.active>a>.fa.arrow:before {
+    content: "\f107";
+}
+
+.nav-second-level li,
+.nav-third-level li {
+    border-bottom: none !important;
+}
+
+.nav-second-level li a {
+    padding-left: 37px;
+}
+
+.nav-third-level li a {
+    padding-left: 55px;
+}
+
+.sidebar-collapse,
+.sidebar-collapse .nav {
+    background: none;
+    -webkit-box-shadow: 7px 0px 5px -4px rgba(131, 133, 133, 1);
+    -moz-box-shadow: 7px 0px 5px -4px rgba(131, 133, 133, 1);
+    box-shadow: 7px 0px 5px -4px rgba(131, 133, 133, 1);
+}
+
+.sidebar-collapse .nav {
+    padding: 0;
+}
+
+.sidebar-collapse .nav>li>a {
+    color: #fff;
+    background: #23527c;
+    text-shadow: none;
+}
+
+.sidebar-collapse>.nav>li>a {
+    padding: 15px 10px;
+}
+
+.sidebar-collapse>.nav>li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.19);
+}
+
+.sidebar-collapse .nav>li>a:hover,
+.sidebar-collapse .nav>li>a:focus {
+    background: #838585;
+    outline: 0;
+}
+
+.nav-second-level>li>a:before,
+.nav-third-level>li>a:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 20px;
+    width: 15px;
+    height: 1px;
+    background: #ff0000;
+    top: 20px;
+}
+
+.nav-second-level>li>a:after,
+.nav-third-level>li>a:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 20px;
+    width: 1px;
+    height: 100%;
+    background: #ff0000;
+    top: 0px;
+    z-index: 10;
+}
+
+.nav-second-level>li:last-child>a:after,
+.nav-third-level>li:last-child>a:after {
+    height: 50%;
+}
+
+.nav-third-level>li>a:after,
+.nav-third-level>li>a:before {
+    left: 40px;
+}
+
+.navbar-side {
+    border: none;
+    background-color: #202020;
+}
+
+.navbar-cls-top {
+    background: #4D4D4D;
+    border-bottom: none;
+    -webkit-box-shadow: 0px 7px 5px -4px rgba(131, 133, 133, 1);
+    -moz-box-shadow: 0px 7px 5px -4px rgba(131, 133, 133, 1);
+    box-shadow: 0px 7px 5px -4px rgba(131, 133, 133, 1);
+}
+
+.navbar-cls-top .navbar-brand:hover {
+    background: #C90000;
+    color: #fff;
+}
+
+.navbar-default {
+    border: 0px solid black;
+}
+
+.navbar-header {
+    background: #A70303;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #B40101;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+
+.nav>li>a>i {
+    margin-right: 10px;
+}
+
+
+/*==============================================
+    UI ELEMENTS STYLES
+    =============================================*/
+
+.btn-circle {
+    width: 50px;
+    height: 50px;
+    padding: 6px 0;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.428571429;
+}
+
+
+/*==============================================
+    MEDIA QUERIES
+    =============================================*/
+
+@media(min-width:768px) {
+    #page-wrapper {
+        margin: 0 0 0 220px;
+        min-height: 1200px;
+    }
+    #page-wrapper-mini {
+        margin: 0 0 0 0;
+        min-height: 1000px;
+    }
+    .navbar-side {
+        z-index: 1;
+        position: absolute;
+        width: 260px;
+    }
+    .navbar {
+        border-radius: 0px;
+    }
+}
+
+
+/* client.show view style */
+
+.user-row {
+    margin-bottom: 14px;
+}
+
+.user-row:last-child {
+    margin-bottom: 0;
+}
+
+.dropdown-user {
+    margin: 13px 0;
+    padding: 5px;
+    height: 100%;
+}
+
+.dropdown-user:hover {
+    cursor: pointer;
+}
+
+.table-user-information>tbody>tr {
+    border-top: 1px solid rgb(221, 221, 221);
+}
+
+.table-user-information>tbody>tr:first-child {
+    border-top: 0;
+}
+
+.table-user-information>tbody>tr>td {
+    border-top: 0;
+}
+
+.toppad {
+    margin-top: 20px;
+}
+
+
+/* Invoice */
+
+.invoice {
+    width: 680px !important;
+    margin: inherit;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+}
+
+.header .well p {
+    font-style: normal;
+    font-variant: normal;
+    padding: 0;
+    margin: 0;
+}
+
+.invoice table {
+    font-style: normal;
+    font-variant: normal;
+    margin-bottom: 20px!important;
+}
+
+.cubeInvoice {
+    font-style: normal;
+    font-variant: normal;
+    border: 1px solid #ddd;
+    background-color: #f6f6f6;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.cubeInvoice p {
+    font-style: normal;
+    font-variant: normal;
+    font-size: 12px;
+    padding-left: 15px;
+    margin-top: -20px;
+}
+
+@media print {
+    .no-print,
+    .no-print * {
+        display: none !important;
+    }
+    #page-wrapper {
+        margin: 0;
+        min-height: 0;
+    }
+    #page-inner {
+        min-height: 0;
+    }
+}
+
+.cubeInvoice h4 {
+    font-style: normal;
+    font-variant: normal;
+    padding-left: 15px;
+}
+
+#invoiceFrom {
+    font-style: normal;
+    font-variant: normal;
+    position: relative;
+    float: left;
+    width: 220px;
+    margin-left: 25px;
+}
+
+#invoiceTo {
+    position: relative;
+    float: left;
+    width: 430px;
+    margin-left: 15px;
+}
+
+#invoiceDetails {
+    font-style: normal;
+    font-variant: normal;
+    position: relative;
+    float: left;
+    width: 665px;
+    margin-left: 25px;
+    margin-top: 5px;
+    font-size: 12px;
+    border: 1px solid #ddd;
+}
+
+#invoiceDetails p {
+    font-style: normal;
+    font-variant: normal;
+    font-size: 12px;
+    margin-top: -15px;
+    margin-bottom: 5px;
+}
+
+
+/* Dashboard items */
+
+.smallstat {
+    background: white;
+    padding: 10px;
+    position: relative;
+    float: left;
+    text-align: right;
+    width: 280px;
+    height: 120px;
+}
+
+.box {
+    border: 1px solid #dbdee0;
+    margin: 0 25px 30px 25px;
+}
+
+.smallstat .more {
+    background: #e9ebec;
+    border-top: 1px solid #dbdee0;
+    margin: 70px -10px -10px -10px;
+    padding: 20px 25px;
+    display: block;
+    font-size: 12px;
+    text-align: left;
+}
+
+.smallstat .title {
+    top: 12px;
+    color: #b2b8bd;
+    display: block;
+    font-size: 12px;
+    margin-top: 4px;
+    font-weight: bold;
+}
+
+.smallstat .value {
+    font-size: 20px;
+}
+
+.smallstat .linechart-overlay.blue,
+.smallstat .boxchart-overlay.blue {
+    background: #36a9e1;
+}
+
+.smallstat .linechart-overlay,
+.smallstat .boxchart-overlay {
+    padding: 10px;
+    text-align: center;
+    margin-right: 10px;
+    float: left;
+    overflow: hidden;
+}
+
+.smallstat i.green {
+    background: #bdea74;
+}
+
+.green {
+    color: #bdea74;
+}
+
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.smallstat .linechart-overlay.red,
+.smallstat .boxchart-overlay.red {
+    background: #ff5454;
+}
+
+.smallstat .piechart-overlay.blue {
+    background: #36a9e1;
+}
+
+.smallstat .piechart-overlay {
+    padding: 5px;
+    text-align: center;
+    margin-right: 10px;
+    float: left;
+    overflow: hidden;
+}
+
+.blue {
+    color: #36a9e1;
+}
+
+.red {
+    color: #ff5454;
+}
+
+.smallchart {
+    background: white;
+    text-align: center;
+}
+
+.smallchart .content {
+    padding: 40px 0;
+    background: #dbdee0;
+}
+
+.smallchart.green .title {
+    background: #bdea74;
+}
+
+.smallchart .title {
+    padding: 10px;
+    color: white;
+    background: #dbdee0;
+}
+
+.white {
+    color: white;
+}
+
+
+/* Receipts */
+
+.delete {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    background: #EEEEEE;
+    font-weight: bold;
+    padding: 0px 3px;
+    border: 1px solid;
+    margin-top: 7px;
+    font-family: Verdana;
+    font-size: 12px;
+}
+
+
+/* Registers */
+
+.box_reg {
+    background: white;
+    padding: 10px;
+    position: relative;
+    float: left;
+    text-align: right;
+    width: 280px;
+    height: 95px;
+}
+
+.box_reg .more {
+    background: #e9ebec;
+    border-top: 1px solid #dbdee0;
+    margin: 70px -10px -10px -10px;
+    padding: 20px 25px;
+    display: block;
+    font-size: 12px;
+    text-align: left;
+}
+
+.box_reg .title {
+    top: 12px;
+    color: #b2b8bd;
+    display: block;
+    font-size: 12px;
+    margin-top: 4px;
+    font-weight: bold;
+}
+
+.box_reg .value {
+    font-size: 20px;
+}
+
+.box_reg .linechart-overlay.blue,
+.box_reg .boxchart-overlay.blue {
+    background: #36a9e1;
+}
+
+.box_reg .linechart-overlay,
+.box_reg .boxchart-overlay {
+    padding: 10px;
+    text-align: center;
+    margin-right: 10px;
+    float: left;
+    overflow: hidden;
+}
+
+.box_reg i.green {
+    background: #bdea74;
+}
+
+.box_reg .linechart-overlay.red,
+.box_reg .boxchart-overlay.red {
+    background: #ff5454;
+}
+
+.box_reg .piechart-overlay.blue {
+    background: #36a9e1;
+}
+
+.box_reg .piechart-overlay {
+    padding: 5px;
+    text-align: center;
+    margin-right: 10px;
+    float: left;
+    overflow: hidden;
+}
+
+#tblRegIncomeGrape td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#tblRegIncomeGrape th {
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+/* Register 2 tables styles */
+
+
+/* The table of Register two for inserting */
+
+#tblRegIncomeOutcomeGrapeProducts td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#tblRegIncomeOutcomeGrapeProducts td input {
+    text-align: center;
+}
+
+#tblRegIncomeOutcomeGrapeProducts th {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#tblRegIncomeOutcomeGrapeProducts tbody {
+    counter-reset: rowNumber;
+}
+
+#tblRegIncomeOutcomeGrapeProducts tbody tr {
+    counter-increment: rowNumber;
+}
+
+#tblRegIncomeOutcomeGrapeProducts tbody tr td:first-child::before {
+    content: counter(rowNumber);
+    min-width: 1em;
+    margin-right: 0.5em;
+}
+
+
+/* The table of Register two for printing */
+
+#tblRegIncomeOutcomeGrapeProducts_Print td {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 10px;
+}
+
+#tblRegIncomeOutcomeGrapeProducts_Print th {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 11px;
+}
+
+#tblRegIncomeOutcomeGrapeProducts_Print tbody {
+    counter-reset: rowNumber;
+}
+
+#tblRegIncomeOutcomeGrapeProducts_Print tbody tr {
+    counter-increment: rowNumber;
+}
+
+#tblRegIncomeOutcomeGrapeProducts_Print tbody tr td:first-child::before {
+    content: counter(rowNumber);
+    min-width: 1em;
+    margin-right: 0.5em;
+}
+
+
+/* Register 3 tables styles */
+
+
+/* The table of Register three for inserting */
+
+#tblRegIncomeOutcomeWine td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#tblRegIncomeOutcomeWine td input {
+    text-align: center;
+}
+
+#tblRegIncomeOutcomeWine th {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#tblRegIncomeOutcomeWine tbody {
+    counter-reset: rowNumber;
+}
+
+#tblRegIncomeOutcomeWine tbody tr {
+    counter-increment: rowNumber;
+}
+
+#tblRegIncomeOutcomeWine tbody tr td:first-child::before {
+    content: counter(rowNumber);
+    min-width: 1em;
+    margin-right: 0.5em;
+}
+
+
+/* The table of Register three for printing */
+
+#tblRegIncomeOutcomeWine_Print td {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 10px;
+}
+
+#tblRegIncomeOutcomeWine_Print th {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 11px;
+}
+
+#tblRegIncomeOutcomeWine_Print tbody {
+    counter-reset: rowNumber;
+}
+
+#tblRegIncomeOutcomeWine_Print tbody tr {
+    counter-increment: rowNumber;
+}
+
+#tblRegIncomeOutcomeWine_Print tbody tr td:first-child::before {
+    content: counter(rowNumber);
+    min-width: 1em;
+    margin-right: 0.5em;
+}
+
+
+/* Register 4 tables styles */
+
+
+/* The table of Register four for inserting */
+
+#tblRegIncomeOutcomeWineProducts td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#tblRegIncomeOutcomeWineProducts td input {
+    text-align: center;
+}
+
+#tblRegIncomeOutcomeWineProducts th {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#tblRegIncomeOutcomeWineProducts tbody {
+    counter-reset: rowNumber;
+}
+
+#tblRegIncomeOutcomeWineProducts tbody tr {
+    counter-increment: rowNumber;
+}
+
+#tblRegIncomeOutcomeWineProducts tbody tr td:first-child::before {
+    content: counter(rowNumber);
+    min-width: 1em;
+    margin-right: 0.5em;
+}
+
+
+/* The table of Register four for printing */
+
+#tblRegIncomeOutcomeWineProducts_Print td {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 10px;
+}
+
+#tblRegIncomeOutcomeWineProducts_Print th {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 11px;
+}
+
+#tblRegIncomeOutcomeWineProducts_Print tbody {
+    counter-reset: rowNumber;
+}
+
+#tblRegIncomeOutcomeWineProducts_Print tbody tr {
+    counter-increment: rowNumber;
+}
+
+#tblRegIncomeOutcomeWineProducts_Print tbody tr td:first-child::before {
+    content: counter(rowNumber);
+    min-width: 1em;
+    margin-right: 0.5em;
+}
+
+
+/********************** Warehouse styles **********************/
+
+.stat_box {
+    display: block;
+    min-height: 90px;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    margin-bottom: 15px;
+}
+
+.stat_box_icon {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 2px;
+    display: block;
+    float: left;
+    height: 90px;
+    width: 90px;
+    text-align: center;
+    font-size: 45px;
+    line-height: 90px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.stat_box_content {
+    padding: 5px 10px;
+    margin-left: 90px;
+}
+
+.stat_box_text {
+    display: block;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+}
+
+.stat_box_number {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+    color: #000;
+}
+
+.stat_box_number_products {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 18px;
+    color: #000;
+}
+
+.button_box {
+    display: block;
+    min-height: 200px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    border: 2px solid rgba(207, 207, 207, 0.56);
+    margin-bottom: 15px;
+}
+
+.button_box_text {
+    border-radius: 5px;
+    display: block;
+    float: left;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+}
+
+.bb_box {
+    display: table;
+    min-height: 200px;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    border: 2px solid rgba(207, 207, 207, 0.56);
+    margin-bottom: 20px;
+}
+
+.bb_text {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 15px 0 15px;
+    border-radius: 5px;
+    height: 200px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.centered_vertically {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 30%;
+    width: 50%;
+    margin: -15% 0 0 -25%;
+}
+
+.receipt_btn {
+    display: block;
+    min-height: 90px;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid rgba(207, 207, 207, 0.56);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.receipt_btn_icon_left {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 2px;
+    display: block;
+    float: left;
+    height: 90px;
+    width: 90px;
+    text-align: center;
+    font-size: 45px;
+    line-height: 90px;
+}
+
+.receipt_btn_icon_right {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 2px;
+    display: block;
+    float: right;
+    height: 90px;
+    width: 100%;
+    text-align: center;
+    font-size: 45px;
+    line-height: 90px;
+}
+
+.receipt_btn_content {
+    text-align: center;
+    font-size: 30px;
+    line-height: 90px;
+}
+
+.rcp_opt_box {
+    display: table;
+    min-height: 200px;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    border: 2px solid rgba(207, 207, 207, 0.56);
+    margin-bottom: 20px;
+}
+
+.rcp_opt_text {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 15px 0 15px;
+    border-radius: 5px;
+    height: 200px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.btl_fill_btn {
+    display: block;
+    min-height: 90px;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid rgba(207, 207, 207, 0.56);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.btl_fill_btn_icon_left {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 2px;
+    display: block;
+    float: left;
+    height: 90px;
+    width: 90px;
+    text-align: center;
+    font-size: 45px;
+    line-height: 90px;
+}
+
+.btl_fill_btn_content {
+    text-align: center;
+    font-size: 30px;
+    line-height: 90px;
+}
+
+
+/********************** Archive styles **********************/
+
+.archive_btn {
+    display: block;
+    min-height: 90px;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid rgba(207, 207, 207, 0.56);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.archive_btn_icon_left {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 2px;
+    display: block;
+    float: left;
+    height: 90px;
+    width: 90px;
+    text-align: center;
+    font-size: 45px;
+    line-height: 90px;
+}
+
+.archive_btn_content {
+    text-align: center;
+    font-size: 30px;
+    line-height: 90px;
+}
+
+
+/********************** Clients **********************/
+
+.cl_opt_btn {
+    display: block;
+    min-height: 90px;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid rgba(207, 207, 207, 0.56);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.cl_opt_btn_icon_left {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 2px;
+    display: block;
+    float: left;
+    height: 90px;
+    width: 90px;
+    text-align: center;
+    font-size: 45px;
+    line-height: 90px;
+}
+
+.cl_opt_btn_content {
+    text-align: center;
+    font-size: 30px;
+    line-height: 90px;
+}
+
+#tblNewCustomerIndividualLocations td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#tblNewCustomerIndividualLocations td input {
+    text-align: center;
+}
+
+#tblNewCustomerIndividualLocations th {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#tblNewCustomerIndividualLocations tbody {
+    counter-reset: rowNumber;
+}
+
+#tblNewCustomerIndividualLocations tbody tr {
+    counter-increment: rowNumber;
+}
+
+#tblNewCustomerIndividualLocations tbody tr td:first-child::before {
+    content: counter(rowNumber);
+    min-width: 1em;
+    margin-right: 0.5em;
+}
+
+#tblNewCustomerCompanyLocations td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#tblNewCustomerCompanyLocations td input {
+    text-align: center;
+}
+
+#tblNewCustomerCompanyLocations th {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#tblNewCustomerCompanyLocations tbody {
+    counter-reset: rowNumber;
+}
+
+#tblNewCustomerCompanyLocations tbody tr {
+    counter-increment: rowNumber;
+}
+
+#tblNewCustomerCompanyLocations tbody tr td:first-child::before {
+    content: counter(rowNumber);
+    min-width: 1em;
+    margin-right: 0.5em;
+}
+
+
+/* Contract styles */
+
+page[size="A4"] {
+    background: white;
+    width: 21cm;
+    height: 29.7cm;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+}
+
+.contract_container {
+    width: 100%;
+    padding: 1cm 0.5cm 0.5cm 0.5cm;
+    text-align: center;
+}
+
+.contract_content {
+    width: 100%;
+    padding: 1cm 0.5cm 0cm 0.5cm;
+    text-align: center;
+}
+
+.center_content {
+    display: inline;
+    float: none;
+}
+
+.contract_header {
+    width: 20cm;
+    height: auto;
+    margin: 0 auto;
+}
+
+.span_tab {
+    float: left;
+    margin-left: 20px;
+}
+
+#contractTable td {
+    border: none;
+}
+
+.kopcinja {
+    background: white;
+    width: 210mm;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+
+/* Style for the button in the grape delivery index page --------------------------------------------------------------*/
+
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+.button_square {
+    display: block;
+    width: 100%;
+    height: 200px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    border: 2px solid rgba(207, 207, 207, 0.56);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+    -o-box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+    margin-left: 5px;
+}
+
+.button_square_icon {
+    display: table;
+    margin: 0 auto;
+    height: 120px;
+    width: 120px;
+    text-align: center;
+    font-size: 120px;
+    line-height: 120px;
+}
+
+.button_square_content {
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 45px;
+    line-height: 200px;
+    text-shadow: #e0e0e0 2px 2px 0;
+}
+
+.button_square span:hover::before {
+    background-color: #c6f0f8;
+}

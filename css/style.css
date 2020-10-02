@@ -1,0 +1,347 @@
+.header h1 {
+    background: #a20000;
+    color: white;
+    margin-bottom: 0;
+    padding: 1em;
+    text-align: center;
+}
+
+.bg-gradient-primary {
+    background-color: #b60000;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #ff3131), to(#970000));
+    background-image: linear-gradient(180deg, #a20000 10%, #7f0000 100%);
+    background-size: cover;
+    color: white;
+}
+
+ul.accordionSidebar {
+    background-color: #b60000;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #ff3131), to(#970000));
+    background-image: linear-gradient(180deg, #a20000 10%, #7f0000 100%);
+    background-size: cover;
+    color: white;
+}
+
+.logout {
+    float: right;
+    color: white;
+    margin-right: 1em;
+    font-size: 13px;
+    bottom: 0;
+}
+
+.logout a {
+    float: right;
+    display: block;
+    position: relative;
+    color: #00ff08;
+    text-decoration: none;
+    margin-left: 3;
+}
+
+.logout a:hover {
+    text-decoration: none;
+    color: #00d500;
+}
+
+nav.navbar.navbar-expand.navbar-light.bg-white.topbar.mb-4.static-top.shadow {
+    display: none;
+}
+
+.container-fluid {
+    margin-top: 1em;
+}
+
+h1.h3.mb-0.text-gray-800 {
+    display: none;
+}
+
+a.sidebar-brand.d-flex.align-items-center.justify-content-center img {
+    max-width: 96%;
+}
+
+.choosebox p {
+    background: #ffffff;
+    padding: 1em;
+    max-width: 40%;
+    border: 1px solid;
+    color: #c40000;
+    margin-left: 2em;
+    margin-top: 1em;
+    font-size: 19px;
+    font-weight: bold;
+    -webkit-box-shadow: 10px 10px 17px -20px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 17px -21px rgba(0, 0, 0, 0.75);
+    box-shadow: 9px 10px 17px -21px rgba(0, 0, 0, 0.75);
+}
+
+span.dostavuvacibrojka {
+    color: #4444ff;
+}
+
+span.odkupibrojka {
+    color: #01ba01;
+}
+
+span.otkupenogrozjebrojka {
+    color: #2babd5;
+}
+
+a.test {
+    text-decoration: none;
+}
+
+.dostavuvaci-header {
+    text-align: center;
+    padding: 1em;
+}
+
+.dostavuvaci-header h2 {
+    color: #cb0000;
+}
+
+.choosebox a {
+    text-decoration: none;
+}
+
+.pregledajdugme {
+    float: right;
+    margin-left: 1em;
+    padding: 6px;
+    background: #ff6910;
+    color: white;
+    border: none;
+    border: 1px solid #9d4900;
+    border-radius: 6px;
+}
+
+.pregledajdugme:hover {
+    background: #d74f00;
+}
+
+a.pregledajdugme {
+    text-decoration: none;
+    color: white;
+}
+
+.pregledajdugme2 {
+    margin-left: 1em;
+    padding: 9px;
+    background: #ff6910;
+    color: white;
+    border: none;
+    /* border: 1px solid #9d4900; */
+    border-radius: 6px;
+}
+
+span.viewnames {
+    color: #570000;
+    /* float: left; */
+    /* display: block; */
+}
+
+a.btn.btn-danger {
+    margin-top: 1em;
+}
+
+a.btn.btn-primary {
+    margin-top: 1em;
+}
+
+button.btn-print {
+    background: #00992f;
+    color: white;
+    border: none;
+    padding: 6px;
+    float: right;
+    margin-top: 1em;
+    border-radius: 7px;
+    border: 1px solid green;
+}
+
+.btn-print {
+    background: #00992f;
+    color: white;
+    border: none;
+    padding: 6px;
+    float: right;
+    margin-top: 1em;
+    border-radius: 7px;
+    border: 1px solid green;
+}
+
+.odberivrstagrozje {
+    display: block;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6e707e;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #d1d3e2;
+    border-radius: .35rem;
+    -webkit-transition: border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+}
+
+.choosebox a {
+    text-decoration: none!important;
+}
+
+.choosebox p:hover {
+    background: #f0f0f0;
+}
+
+.pregledajdugme2:hover {
+    background: #e35e00;
+}
+
+.customerprofile {
+    padding: 6em;
+    padding-top: 1em;
+    margin: 3em;
+    border: 1px solid gray;
+}
+
+.profilepicture img {
+    max-width: 15em;
+    float: left;
+    margin-right: 5em;
+    padding: 1em;
+}
+
+h3.profilename {
+    color: #4d4d4d;
+    font-size: 22px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 1em;
+}
+
+tr.checkprofileindcomp {
+    border-bottom: 1px solid gray;
+}
+
+tr.checkprofileindcomp td {
+    padding: 1em;
+}
+
+span.ddvobvrznikk {
+    color: #ed0000;
+}
+
+h3.sortinagrozjepredmet {
+    float: right;
+    padding: 10px;
+    font-size: 1em;
+    color: black;
+}
+
+hr {
+    display: block;
+    clear: both;
+}
+
+.chooseboxotkup p {
+    padding: 43px;
+    background: #ececec;
+    margin: 1em;
+    margin-right: 1em;
+    margin-right: 1em;
+    margin-right: 0;
+    display: block;
+    float: left;
+    font-size: 32px;
+    border-radius: 1em;
+    -webkit-box-shadow: 10px 10px 31px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 31px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.3);
+    color: red;
+}
+
+.chooseboxotkup p:hover {
+    background: #d8d8d8;
+    color: #de0000;
+}
+
+.chooseboxpregled p {
+    background: #06c700;
+    padding: 1em;
+    max-width: 40%;
+    border: 1px solid;
+    color: #fff;
+    margin-left: 2em;
+    margin-top: 1em;
+    font-size: 19px;
+    font-weight: bold;
+    -webkit-box-shadow: 10px 10px 17px -20px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 17px -21px rgba(0, 0, 0, 0.75);
+    box-shadow: 9px 10px 17px -21px rgba(0, 0, 0, 0.75);
+    border-radius: 1em;
+}
+
+.chooseboxpregled a {
+    text-decoration: none !important;
+}
+
+.chooseboxpregled p:hover {
+    background: #2f9700;
+}
+
+.izberidropdown {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 10px;
+    border: none;
+    border: 1px solid #9d9d9d;
+}
+
+.izberidropdowndugme {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    border: none;
+    border-radius: 1em;
+    padding: 5px 20px 5px 20px;
+    background: #ffb300;
+    color: white;
+}
+
+.izberidropdowndugme:hover {
+    background: #d69600;
+}
+
+button.stonirajdugme {
+    background: none;
+    border: none;
+    color: #c80000;
+}
+
+a.kopcenazad {
+    background: #0037d3;
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none!important;
+    display: block;
+    max-width: 26%;
+    margin-top: 1em;
+    float: left;
+    margin-right: 1em;
+}
+
+a.kopcenazad:hover {
+    background: #002aa1;
+    color: lightgrey;
+    text-decoration: none!important;
+}
+
+button.btn-print:hover {
+    background: #00760f;
+}

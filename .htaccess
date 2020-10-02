@@ -1,0 +1,4 @@
+ReWriteEngine On
+
+RewriteRule ^index?$ index.php [L]
+RewriteRule ^choosenewcustomer?$ choose.php [L]
